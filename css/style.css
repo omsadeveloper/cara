@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root {
   --hColor: #222;
+  --primaryColor: #E3E6F3;
+  --secondaryColor:#088178;
+  --Shadow1: rgba(0,0,0,0.06);
+  --fontColor:#1A1A1A;
+
 }
 *{
     margin: 0;
@@ -44,3 +49,50 @@ body {
 }
 
 /************** End Global Style ************/
+
+/* Header Start */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px var(--Shadow1);
+}
+
+nav #navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--fontColor);
+    transition:.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color:var(--secondaryColor);
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+   content: "";
+   height: 2px;
+   width: 30%;
+   background-color: var(--secondaryColor);
+   position: absolute;
+   bottom: -4px;
+   left: 20px;
+   border-radius: 2px;
+}
+
