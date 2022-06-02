@@ -5,7 +5,10 @@
   --primaryColor: #E3E6F3;
   --secondaryColor:#088178;
   --Shadow1: rgba(0,0,0,0.06);
+  --Shadow2: rgba(0,0,0,0.03);
+  --Shadow3: rgba(70,62,221,0.01);
   --fontColor:#1A1A1A;
+  --borderColor:#CCE7d0;
 
 }
 *{
@@ -135,4 +138,74 @@ nav #navbar{
     color: var(--secondaryColor);
     cursor: pointer;
     margin-top: 20px;
+}
+
+/************ Start Feature Section ***********/
+
+#feature{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    border: 1px solid var(--borderColor);
+    border-radius: 4px;
+    box-shadow: 20px 20px 34px var(--Shadow2);
+    margin:15px 0;
+    cursor: pointer;
+    
+}
+#feature .fe-box img{
+    /* because our website is responsive */
+    width: 100%;
+    margin-bottom: 10px;
+}
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px var(--Shadow3);
+}
+
+#feature .fe-box h6{
+   
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    border-radius: 4px;
+    line-height: 1rem;
+    color: var(--secondaryColor);
+
+}
+
+#feature .fe-box:nth-child(1) h6{
+   
+    background-color: #FDDDE4;
+
+}
+#feature .fe-box:nth-child(2) h6{
+   
+    background-color: #CDEBBC;
+
+}
+#feature .fe-box:nth-child(3) h6{
+  
+    background-color: #D1E8F2;
+
+}
+#feature .fe-box:nth-child(4) h6{
+  
+    background-color: #CDD4F8;
+
+}
+#feature .fe-box:nth-child(5) h6{
+   
+    background-color: #F6DBF6;
+
+}
+#feature .fe-box:nth-child(6) h6{
+     
+    background-color: #FFF2E5;
+
 }
