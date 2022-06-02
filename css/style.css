@@ -57,6 +57,11 @@ body {
     justify-content: space-between;
     padding: 20px 80px;
     box-shadow: 0 5px 15px var(--Shadow1);
+    z-index: 999;
+    position: sticky;
+    top:0;
+    left: 0;
+    background-color: var(--primaryColor);
 }
 
 nav #navbar{
@@ -95,4 +100,39 @@ nav #navbar{
    left: 20px;
    border-radius: 2px;
 }
+/* ************************************ Home Page **************************************/
+/* *********** Start Hero Section ***********/
+#hero{
+    background-image: url('/img/hero4.png');
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    background-repeat: no-repeat;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#hero h4{
+    padding-bottom: 15px;
+}
 
+#hero h1{
+    color: var(--secondaryColor);
+}
+
+#hero button{
+    background-image: url("/img/button.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    font-size: 15px;
+    border: 0;
+    outline-style: none;
+    padding: 14px 80px 14px 65px;
+    color: var(--secondaryColor);
+    cursor: pointer;
+    margin-top: 20px;
+}
