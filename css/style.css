@@ -300,13 +300,13 @@ nav #navbar{
     right: 15px;
     
 }
+    
 
 #product1 .pro .cart:hover{
  background-color: var(--secondaryColor);
     color: #e8f6ea;
     border:none
 }
-
 /************ Start Banner Section ***********/
 #banner{
     display: flex;
@@ -319,8 +319,7 @@ nav #navbar{
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 40vh;
-    
+    height: 40vh;  
 }
 
 #banner h4{
@@ -332,7 +331,6 @@ nav #navbar{
     font-size: 30px;
     color: var(--whiteColor);
     padding: 10px 0;
-
 }
 
 #banner h2 span{
@@ -340,8 +338,7 @@ nav #navbar{
 }
 
 #banner button:hover{
-   background-color: var(--secondaryColor);
+    background-color: var(--secondaryColor);
     color: var(--whiteColor);
-   
 }
 
