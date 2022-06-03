@@ -123,7 +123,7 @@ nav #navbar{
 /* ************************************ Home Page **************************************/
 /* *********** Start Hero Section ***********/
 #hero{
-    background-image: url("/img/hero4.png");
+    background-image: url("img/hero4.png");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -144,7 +144,7 @@ nav #navbar{
 }
 
 #hero button{
-    background-image: url("/img/button.png");
+    background-image: url("img/button.png");
     background-color: transparent;
     background-repeat: no-repeat;
     font-weight: 700;
@@ -306,6 +306,7 @@ nav #navbar{
     color: #e8f6ea;
     border:none
 }
+<<<<<<< HEAD
 /************ Start Banner Section ***********/
 #banner{
     display: flex;
@@ -345,3 +346,5 @@ nav #navbar{
     color: var(--whiteColor);
    
 }
+=======
+>>>>>>> 85ee66fc72f8c3955825ed7d0d0c25c1e05722e8
