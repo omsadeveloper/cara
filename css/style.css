@@ -12,6 +12,8 @@
   --fontColor2:#606063;
   --borderColor:#CCE7d0;
   --yellowColor:rgb(243,181,25);
+  --whiteColor:#FFF;
+  --RedColor:#EF3636;
 
 }
 *{
@@ -49,7 +51,19 @@ h6 {
 .section-m1{
     margin: 40px 0;
 }
-
+/* default button */
+button.normal{
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    background-color: var(--whiteColor);
+    color: #000;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: .2s;
+}
 body {
     width: 100%;
 }
@@ -291,4 +305,43 @@ nav #navbar{
  background-color: var(--secondaryColor);
     color: #e8f6ea;
     border:none
+}
+/************ Start Banner Section ***********/
+#banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+    background-image: url("/img/banner/b2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    
+}
+
+#banner h4{
+    font-size: 16px;
+    color: var(--whiteColor);
+}
+
+#banner h2{
+    font-size: 30px;
+    color: var(--whiteColor);
+    padding: 10px 0;
+
+}
+
+#banner h2 span{
+    color :var(--RedColor);
+}
+
+ 
+
+#banner button:hover{
+   background-color: var(--secondaryColor);
+    color: var(--whiteColor);
+   
 }
