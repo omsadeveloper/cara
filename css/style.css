@@ -64,6 +64,7 @@ button.normal{
     border-radius: 4px;
     transition: .2s;
 }
+
 body {
     width: 100%;
 }
@@ -123,7 +124,7 @@ nav #navbar{
 /* ************************************ Home Page **************************************/
 /* *********** Start Hero Section ***********/
 #hero{
-    background-image: url("img/hero4.png");
+    background-image: url("/img/hero4.png");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -144,7 +145,7 @@ nav #navbar{
 }
 
 #hero button{
-    background-image: url("img/button.png");
+    background-image: url("/img/button.png");
     background-color: transparent;
     background-repeat: no-repeat;
     font-weight: 700;
@@ -155,8 +156,12 @@ nav #navbar{
     color: var(--secondaryColor);
     cursor: pointer;
     margin-top: 20px;
+    transition: .2s;
 }
 
+#hero button:hover{
+    color: var(--fontColor);
+}
 /************ Start Feature Section ***********/
 
 #feature{
@@ -182,12 +187,12 @@ nav #navbar{
     width: 100%;
     margin-bottom: 10px;
 }
+
 #feature .fe-box:hover{
     box-shadow: 10px 10px 54px var(--Shadow3);
 }
 
-#feature .fe-box h6{
-   
+#feature .fe-box h6{ 
     display: inline-block;
     padding: 9px 8px 6px 8px;
     border-radius: 4px;
@@ -252,7 +257,7 @@ nav #navbar{
     position: relative;
 }
 #product1 .pro:hover{
-     box-shadow: 20px 20px 30px var(--Shadow1);
+    box-shadow: 20px 20px 30px var(--Shadow1);
 }
 
 #product1 .pro img{
@@ -274,6 +279,7 @@ nav #navbar{
     color: var(--fontColor);
     font-size: 14px;
 }
+
 #product1 .pro .des i{
     font-size: 12px;
     color:var(--yellowColor);
@@ -298,15 +304,14 @@ nav #navbar{
     border: 1px solid var(--borderColor);
     bottom: 15px;
     right: 15px;
-    
 }
-    
 
 #product1 .pro .cart:hover{
  background-color: var(--secondaryColor);
     color: #e8f6ea;
     border:none
 }
+
 /************ Start Banner Section ***********/
 #banner{
     display: flex;
