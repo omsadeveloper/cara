@@ -306,7 +306,7 @@ nav #navbar{
     color: #e8f6ea;
     border:none
 }
-<<<<<<< HEAD
+
 /************ Start Banner Section ***********/
 #banner{
     display: flex;
@@ -339,12 +339,9 @@ nav #navbar{
     color :var(--RedColor);
 }
 
- 
-
 #banner button:hover{
    background-color: var(--secondaryColor);
     color: var(--whiteColor);
    
 }
-=======
->>>>>>> 85ee66fc72f8c3955825ed7d0d0c25c1e05722e8
+
