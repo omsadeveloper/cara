@@ -109,7 +109,7 @@ nav #navbar{
 /* ************************************ Home Page **************************************/
 /* *********** Start Hero Section ***********/
 #hero{
-    background-image: url("/img/hero4.png");
+    background-image: url("img/hero4.png");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -130,7 +130,7 @@ nav #navbar{
 }
 
 #hero button{
-    background-image: url("/img/button.png");
+    background-image: url("img/button.png");
     background-color: transparent;
     background-repeat: no-repeat;
     font-weight: 700;
