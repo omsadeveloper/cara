@@ -684,4 +684,12 @@ nav #navbar.active{
 	width: 28%;
 }
 
+/*///////////// newsletter //////////////*/
+#newsletter p {
+	margin-bottom: 15px;
+}
+#newsletter .form {	
+	width: 70%;
+}
+
 }
