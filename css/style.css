@@ -586,6 +586,9 @@ footer .copyright{
 /************ Start Media Query ***********/
 
 @media (max-width:799px) {
+    .section-p1 {
+	padding: 40px 40px;
+}
     #mobile{
        display: flex;
        align-items: center;
@@ -639,5 +642,14 @@ nav #navbar.active{
 	padding: 0 80px;
     background-position: top 30% right 30%;
 	
+}
+/*///////////// feature //////////////*/
+#feature {
+	justify-content: center;
+}
+
+#feature .fe-box {
+	margin: 15px 15px;
+
 }
 }
