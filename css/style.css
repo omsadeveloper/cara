@@ -675,4 +675,13 @@ nav #navbar.active{
 	height: 30vh;
     margin-bottom: 20px;
 }
+
+/*///////////// banner3 //////////////*/
+#banner3 {
+	padding: 0 40px;
+}
+#banner3 .banner-box {
+	width: 28%;
+}
+
 }
