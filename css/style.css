@@ -693,3 +693,21 @@ nav #navbar.active{
 }
 
 }
+
+/* for mobile responsive */
+
+@media (max-width:477px) {
+    #header {
+	padding: 10px 30px;
+}
+#hero {
+	padding: 0 30px;
+	background-position: 55%;
+}
+#hero h2 {
+	font-size: 30px;
+}
+#hero h1 {
+	font-size:38px;
+}
+}
