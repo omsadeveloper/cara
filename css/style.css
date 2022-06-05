@@ -729,4 +729,29 @@ nav #navbar.active{
 #sm-banner .banner-box {
 	height: 40vh;
 }
+#banner3 {
+	padding: 0 20px;
+}
+#banner3 .banner-box {
+	width: 100%;	
+}
+.section-p2 {
+	padding: 20px;
+}
+#newsletter {
+	padding: 40px 20px;
+}
+#newsletter .form {
+	width: 100%;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 20px 20px 15px 20px;
+}
+footer .copyright {
+	text-align: start;
+}
 }
