@@ -697,6 +697,9 @@ nav #navbar.active{
 /* for mobile responsive */
 
 @media (max-width:477px) {
+    .section-p1 {
+	padding: 20px;
+}
     #header {
 	padding: 10px 30px;
 }
@@ -709,5 +712,15 @@ nav #navbar.active{
 }
 #hero h1 {
 	font-size:38px;
+}
+#feature {
+	justify-content: space-between;
+}
+#feature .fe-box {
+	width: 155px;
+	margin: 0 0 15px 0;
+}
+#product1 .pro {
+	width: 100%;
 }
 }
