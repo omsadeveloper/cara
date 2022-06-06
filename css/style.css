@@ -775,3 +775,19 @@ footer .copyright {
 #page-header p{
     color: var(--whiteColor);
 }
+
+#pagination{
+    text-align: center;
+}
+#pagination a{ 
+    text-decoration: none;
+    padding: 15px 20px;
+    font-weight: 600px;
+    background-color: var(--secondaryColor);
+    color: var(--whiteColor);
+    border-radius: 4px;
+}
+#pagination a i{ 
+    font-size: 16px;
+    font-weight: 600;
+}
