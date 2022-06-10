@@ -1,0 +1,25 @@
+
+#page-header.about-header{
+    background-image: url(/img/about/banner.png);
+}
+
+#waw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#waw .waw-img{
+    width: 60%;
+
+}
+#waw img{
+    width: 100%;
+
+}
+#waw .waw-details{
+    margin-left: 50px;
+}
+
+#waw .waw-details p{ 
+    padding: 20px 0;
+}

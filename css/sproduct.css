@@ -1,0 +1,75 @@
+/*###################### SPRODUCT PAGE (single product page) #############################*/
+#prodetails{
+   display: flex;
+   margin-top: 20px;
+}
+#prodetails .single-pro-img{
+    width: 30%;
+    margin-right: 50px;
+}
+
+#prodetails .small-img-group{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 3px; */
+}
+
+#prodetails .small-img-col{
+   flex-basis: 24%;
+   cursor: pointer;
+}
+#prodetails .small-img-col img{
+   border: 3px solid var(--whiteColor);
+   transition: all .2s ;
+}
+#prodetails .small-img-col img:hover{
+   border: 3px solid var(--secondaryColor);
+}
+#prodetails .small-img-col img:active{
+   border: 3px solid var(--secondaryColor);
+}
+#prodetails .single-pro-details{
+   width: 50%;
+   padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4{
+   padding: 40px 0 20px 0;
+}
+#prodetails .single-pro-details h2{
+   font-size: 26px;
+}
+#prodetails .single-pro-details select{
+   display: block;
+   padding: 5px 10px;
+   margin-bottom: 10px;
+}
+#prodetails .single-pro-details select:focus{
+    outline: none;
+}
+#prodetails .single-pro-details input{
+   width: 50px;
+   height: 47px;
+   font-size: 16px;
+   padding-left: 10px;
+   margin-right: 10px;
+}
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+
+#prodetails .single-pro-details button{
+    border:1px solid var(--secondaryColor);
+    background-color: var(--secondaryColor);
+    color: var(--whiteColor);
+    transition: .3s ease;
+}
+
+#prodetails .single-pro-details button:hover{
+   background-color: var(--whiteColor);
+   color: var(--secondaryColor);
+}
+
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
