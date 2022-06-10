@@ -23,3 +23,24 @@
 #waw .waw-details p{ 
     padding: 20px 0;
 }
+
+#download{
+    text-align: center;
+}
+#download h2{
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+#download a{
+    color: var(--purpColor);
+}
+#download .download-vid{
+    width: 60%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+#download .download-vid video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
