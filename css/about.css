@@ -5,18 +5,17 @@
 
 #waw{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 #waw .waw-img{
-    width: 60%;
-
+    width: 50%;
 }
-#waw img{
+#waw .waw-img img{
     width: 100%;
-
+      height: auto;
 }
 #waw .waw-details{
+    width: 50%;
     margin-left: 50px;
 }
 
