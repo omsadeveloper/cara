@@ -108,7 +108,20 @@ nav #navbar.active{
 	width: 40%;
 	margin-right: 50px;
 }
+/*** contact page***/
 
+#form-details {
+	padding: 40px;
+}
+
+#form-details form {
+	width: 50%;
+	
+}
+
+#form-details .people{
+	width: 39%;
+}
 }
 
 /* for mobile responsive */
@@ -216,6 +229,34 @@ nav #navbar.active{
 	#download .download-vid {
 		width: 100%;				
 	}
+	/*** contact page***/
+	#contact-details {
+	flex-direction: column;
+   }
+   #contact-details .details {
+	width: 100%;
+	margin-bottom: 4rem;
+	}
+	#contact-details .map {
+	width: 100%;
+	}
+	#form-details {
+		/* flex-direction: column;  */
+		/* OR */
+		flex-wrap: wrap;
+	}
+	#form-details form {
+	width: 100%;
+	margin-bottom: 4rem;
+	}
+	#form-details .people {
+	width: 100%;
+}
+	#form-details {
+	margin: 30px;
+	padding: 40px 20px;
+	border-radius: 10px;
+}
 }
 
 
