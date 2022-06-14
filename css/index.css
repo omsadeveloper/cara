@@ -78,7 +78,7 @@ nav #navbar {
 }
 
 #hero button {
-  background-image: url("/img/button.png");
+  background-image: url("../img/button.png");
   background-color: transparent;
   background-repeat: no-repeat;
   font-weight: 700;
@@ -237,7 +237,7 @@ nav #navbar {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url("/img/banner/b2.jpg");
+  background-image: url("../img/banner/b2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -276,7 +276,7 @@ nav #navbar {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  background-image: url("/img/banner/b17.jpg");
+  background-image: url("../img/banner/b17.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -285,7 +285,7 @@ nav #navbar {
   padding: 30px;
 }
 #sm-banner .banner-box2 {
-  background-image: url("/img/banner/b10.jpg");
+  background-image: url("../img/banner/b10.jpg");
 }
 #sm-banner h4 {
   font-size: 20px;
@@ -322,7 +322,7 @@ nav #navbar {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  background-image: url("/img/banner/b7.jpg");
+  background-image: url("../img/banner/b7.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -332,10 +332,10 @@ nav #navbar {
   margin-bottom: 20px;
 }
 #banner3 .banner-box2 {
-  background-image: url("/img/banner/b4.jpg");
+  background-image: url("../img/banner/b4.jpg");
 }
 #banner3 .banner-box3 {
-  background-image: url("/img/banner/b18.jpg");
+  background-image: url("../img/banner/b18.jpg");
 }
 #banner3 h2 {
   color: var(--whiteColor);
@@ -354,7 +354,7 @@ nav #navbar {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url("/img/banner/b14.png");
+  background-image: url("../img/banner/b14.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 20% 30%;
