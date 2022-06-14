@@ -52,3 +52,50 @@
 #cart table tbody td {
   font-size: 13px;
 }
+
+#cart-add {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#cart-add .coupon {
+  width: 50%;
+  margin-bottom: 30px;
+}
+#cart-add .coupon h3,
+#cart-add .subtotal h3 {
+  margin-bottom: 15px;
+}
+#cart-add .coupon input {
+  width: 60%;
+  padding: 12px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid var(--grayColor);
+  margin-right: 10px;
+}
+#cart-add .coupon button,
+#cart-add .subtotal button {
+  background-color: var(--secondaryColor);
+  color: var(--whiteColor);
+  padding: 12px 20px;
+}
+
+#cart-add .subtotal {
+  width: 50%;
+  margin-bottom: 30px;
+  padding: 30px;
+  border: 1px solid var(--grayColor);
+}
+#cart-add .subtotal table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#cart-add .subtotal table td {
+  width: 50%;
+  border: 1px solid var(--grayColor);
+  padding: 10px;
+  font-size: 13px;
+}
