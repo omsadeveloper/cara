@@ -1,88 +1,87 @@
 /************** Start Global Style ************/
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
   --hColor: #222;
-  --primaryColor: #E3E6F3;
-  --secondaryColor:#088178;
-  --Shadow1: rgba(0,0,0,0.06);
-  --Shadow2: rgba(0,0,0,0.03);
-  --Shadow3: rgba(70,62,221,0.01);
-  --Shadow4: rgba(0,0,0,0.02);
-  --fontColor:#1A1A1A;
-  --fontColor2:#606063;
-  --fontColor3:#818ea0;
-  --borderColor:#CCE7d0;
-  --yellowColor:rgb(243,181,25);
-  --yellowColor2:#FFDB27;
-  --whiteColor:#FFF;
-  --RedColor:#EF3636;
-  --RedColor2:#EC5442;
-  --purpColor:#541E88;
-
+  --primaryColor: #e3e6f3;
+  --secondaryColor: #088178;
+  --Shadow1: rgba(0, 0, 0, 0.06);
+  --Shadow2: rgba(0, 0, 0, 0.03);
+  --Shadow3: rgba(70, 62, 221, 0.01);
+  --Shadow4: rgba(0, 0, 0, 0.02);
+  --fontColor: #1a1a1a;
+  --fontColor2: #606063;
+  --fontColor3: #818ea0;
+  --borderColor: #cce7d0;
+  --yellowColor: rgb(243, 181, 25);
+  --yellowColor2: #ffdb27;
+  --whiteColor: #fff;
+  --RedColor: #ef3636;
+  --RedColor2: #ec5442;
+  --purpColor: #541e88;
+  --grayColor: #e2e9e1;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Spartan',sans-serif;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
 }
 
 h1 {
-    font-size: 50px;
-    line-height: 64px;
-    color: var(--hColor);
+  font-size: 50px;
+  line-height: 64px;
+  color: var(--hColor);
 }
 h2 {
-    font-size: 46px;
-    line-height: 54px;
-    color: var(--hColor);
+  font-size: 46px;
+  line-height: 54px;
+  color: var(--hColor);
 }
 h4 {
-    font-size: 20px;
-    color: var(--hColor);
+  font-size: 20px;
+  color: var(--hColor);
 }
 h6 {
-    font-weight: 700;
-    font-size: 12px;
+  font-weight: 700;
+  font-size: 12px;
 }
 /* Default Paddin Section */
-.section-p1{
-    padding: 40px 80px;
+.section-p1 {
+  padding: 40px 80px;
 }
-.section-p2{
-    padding: 60px 80px;
+.section-p2 {
+  padding: 60px 80px;
 }
 /* Default Margin Section */
-.section-m1{
-    margin: 40px 0;
+.section-m1 {
+  margin: 40px 0;
 }
 /* default button */
-button.normal{
-    border: none;
-    outline: none;
-    padding: 15px 30px;
-    background-color: var(--whiteColor);
-    color: #000;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 600;
-    border-radius: 4px;
-    transition: .2s;
+button.normal {
+  border: none;
+  outline: none;
+  padding: 15px 30px;
+  background-color: var(--whiteColor);
+  color: #000;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: 0.2s;
 }
-button.bgwhite{
-    border: 1px solid var(--whiteColor);;
-    outline: none;
-    padding: 11px 18px;
-    background-color: transparent;
-    color: var(--whiteColor);
-    cursor: pointer;
-    font-size: 13px;
-    font-weight: 600;
-    transition: .2s;
+button.bgwhite {
+  border: 1px solid var(--whiteColor);
+  outline: none;
+  padding: 11px 18px;
+  background-color: transparent;
+  color: var(--whiteColor);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: 0.2s;
 }
 body {
-    width: 100%;
+  width: 100%;
 }
 
 /************** End Global Style ************/
