@@ -252,4 +252,18 @@
     padding: 40px 20px;
     border-radius: 10px;
   }
+  /* cart page */
+  #cart-add {
+    flex-direction: column;
+  }
+  #cart-add .coupon {
+    width: 100%;
+  }
+  #cart-add .coupon input {
+    width: 70%;
+  }
+  #cart-add .subtotal {
+    width: 100%;
+    padding: 20px;
+  }
 }

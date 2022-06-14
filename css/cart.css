@@ -1,5 +1,9 @@
 /******Cart page*****/
 
+#cart {
+  /* for make this section as slider verey important */
+  overflow-x: auto;
+}
 #cart table {
   width: 100%;
   border-collapse: collapse;
